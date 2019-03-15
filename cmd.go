@@ -5,7 +5,7 @@ import (
 	"strings"
 	"github.com/spf13/cobra"
 	"qorsam/config/system"
-	"github.com/aghape/aghape"
+	"github.com/ecletus/ecletus"
 )
 
 func SiteCommand(command *cobra.Command, run ...func(cmd *cobra.Command, site qor.SiteInterface, args []string)) *cobra.Command {
